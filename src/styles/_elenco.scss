@@ -1,0 +1,29 @@
+.elenco h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.atores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__lista {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+
+        &__ator {
+            text-align: center;
+
+            img {
+                max-width: 200px;
+                width: 100%;
+                border-radius: 10px;
+                margin: auto;
+            }
+        }
+    }
+}

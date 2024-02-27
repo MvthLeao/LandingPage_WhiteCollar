@@ -1,0 +1,43 @@
+@use 'hero';
+@use 'sinopse';
+@use 'elenco';
+@use 'watch-netflix';
+@use 'footer';
+@use 'header';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(83, 167, 240);
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.txt {
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.txt--min {
+    font-family: sans-serif;
+    color: gray;
+    font-size: 16px;
+}

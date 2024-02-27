@@ -1,0 +1,48 @@
+.watch-netflix {
+        padding: 5.6vw;
+        min-height: 100vh;
+        background-image: url(../images/hero/3.png);
+        background-size: cover;
+
+        button {
+            display: flex;
+            padding: 20px 50px;
+            font-size: 20px;
+            margin-top: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+            font-weight: bold;
+            color: #fff;
+            background-color: #B0060F;
+
+            &:hover {
+                border: 3px solid #76080e;
+                background-color: black;
+            }
+        }
+        
+        .termos {
+            margin-top: 60px;
+            max-width: 700px;
+        }
+}
+
+.netflix__titulo {
+    margin-top: 80px;
+    font-size: 80px;
+    font-family: sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+
+    &__sub {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 25px;
+        font-family: sans-serif;
+        color: #fff;
+        display: flex;
+        justify-content: flex-start;
+    }
+}

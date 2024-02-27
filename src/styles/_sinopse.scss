@@ -1,0 +1,40 @@
+.sinopse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px;
+    padding: 20px;
+
+    &__content {
+        flex: 1;
+
+        img {
+            width: 500px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        &__texto {
+            flex: 1;
+            color: #fff;
+
+            .info {
+                font-size: 20px;
+                padding: 40px 0;
+
+                ul {
+                    list-style: none;
+
+                    p {
+                        padding-top: 20px;
+                        margin-right: 3px;
+                    }
+
+                    span {
+                        color: rgb(83, 167, 240);
+                    }
+                }
+            }
+        }
+    }
+}
